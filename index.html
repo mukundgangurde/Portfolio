@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Mukund Gangurde</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -33,13 +34,46 @@
   </div>
   <!-- /Header -->
 
+  <!-- About -->
   <div id="about">
     <div id="container">
       <div class="row">
-        <div class="about-col-1"></div>
+        <div class="about-col-1">
+          <img src="images/user.png" alt="userimage">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum minima laudantium impedit ipsum veniam, mollitia facere, saepe earum temporibus rerum, nihil provident odit ratione quae iure dolorem perferendis est ducimus quas numquam aperiam dicta voluptatum magnam sint? Dicta ipsam animi cumque labore beatae aspernatur rerum, nulla reprehenderit ad repellat alias debitis accusamus quaerat hic sunt amet! Natus dignissimos eum quia.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Lorem ipsum dolor sit.</li>
+              <li><span>UI/UX</span><br>Lorem ipsum dolor sit.</li>
+              <li><span>UI/UX</span><br>Lorem ipsum dolor sit.</li>
+              <li><span>UI/UX</span><br>Lorem ipsum dolor sit.</li>
+            </ul>
+            <div class="tab-contents" id="experience">
+            <ul>
+              <li>No Experience till now...</li>
+            </ul>
+            <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2020</span><br>SSC</li>
+              <li><span>2022</span><br>HSC</li>
+              <li><span>2025</span><br>B. Sc. IT</li>
+              <li><span>2027</span><br>MCA</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <!-- /About -->
 </body>
 
 </html>
